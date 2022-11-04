@@ -8,5 +8,5 @@ app.get("/",(req,res)=>{
 })
 
 app.listen(process.env.PORT,()=>{
-    console.log(`Listing on ${process.end.PORT}`)
+    console.log(`Listing on ${process.env.PORT}`)
 })
